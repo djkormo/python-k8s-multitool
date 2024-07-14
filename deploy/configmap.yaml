@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: multitool-operator
+  namespace: default
+data:
+  VERBOSE: "false"
+  DEBUG: "false"
+  NAMESPACE: "default"
+  LIVENESS: "true"
+  LOOP_INTERVAL: "60"
+  EXCLUDED_NAMESPACES : "kube-system,kube-public,kube-node-lease"

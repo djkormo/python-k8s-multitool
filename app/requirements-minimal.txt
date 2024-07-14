@@ -1,0 +1,7 @@
+kopf==1.37.2
+kubernetes==29.0.0
+kubernetes_asyncio==29.0.0
+kr8s==0.17.0
+requests=2.25.1 
+hvac==2.3.0
+pykube-ng==19.10.0
